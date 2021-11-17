@@ -1,7 +1,19 @@
 {% extends '_base.html' %}
+{% load static %}
 
 {% block title %}About page{% endblock %}
 
 {% block content %}
-<h1>About page</h1>
+<h1>Roses</h1>
+<div>
+    <img src="{% static 'images/rose1.jpg' %}" class="img-fluid" alt="DjangoX logo" style="float:right;width: 50%;"/>
+
+<p style="font-size: 20px;color: rgb(62, 56, 68);">A rose is a woody perennial flowering plant of the genus Rosa, in the family Rosaceae, or the flower it bears. There are over three hundred species and tens of thousands of cultivars.[citation needed] They form a group of plants that can be erect shrubs, climbing, or trailing, with stems that are often armed with sharp prickles.[citation needed] Their flowers vary in size and shape and are usually large and showy, in colours ranging from white through yellows and reds. Most species are native to Asia, with smaller numbers native to Europe, North America, and northwestern Africa.[citation needed] Species, cultivars and hybrids are all widely grown for their beauty and often are fragrant. Roses have acquired cultural significance in many societies. Rose plants range in size from compact, miniature roses, to climbers that can reach seven meters in height.[citation needed] Different species 
+    hybridize easily, and this has been used in the development of the wide range of garden roses.
+</p>
+<div>
+    <img src="{% static 'images/rose2.jpg' %}" class="img-fluid" alt="DjangoX logo" style="float:right;width: 300px;"/>
+
+</div>
+</div>
 {% endblock content %}
